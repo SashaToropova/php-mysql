@@ -1,0 +1,2 @@
+create database crud_tut;
+create table products (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR( 100 ) NOT NULL, price INT NOT NULL, date DATE NOT NULL, count INT, content mediumblob ) ENGINE = INNODB;
